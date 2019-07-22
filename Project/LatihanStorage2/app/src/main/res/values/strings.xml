@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Latihan Storage</string>
+    <string name="read_file" translatable="false">Read File</string>
+    <string name="create" translatable="false">Create File</string>
+    <string name="Edit" translatable="false">Edit File</string>
+    <string name="delete" translatable="false">Delete File</string>
+    <string name="hasil_baca_file" translatable="false">Hasil Baca File</string>
+</resources>

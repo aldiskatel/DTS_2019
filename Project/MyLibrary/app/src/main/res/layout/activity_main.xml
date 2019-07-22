@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:text="@string/enter_name_to_store_in_sqlite"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:hint="@string/enter_name" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:text="@string/store" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:text="@string/get_all_names_from_sqlite" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:textAlignment="center" />
+</LinearLayout>

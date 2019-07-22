@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Thunder</string>
+    <string name="halo_admin">Halo, admin</string>
+    <string name="sedang_sibuk">Sedang Sibuk</string>
+    <string name="halo_saya_admin_di_sini">Halo, saya admin di sini</string>
+    <string name="logout">Logout</string>
+</resources>

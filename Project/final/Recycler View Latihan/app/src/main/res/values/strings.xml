@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">7 Keajaiban Dunia</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+</resources>

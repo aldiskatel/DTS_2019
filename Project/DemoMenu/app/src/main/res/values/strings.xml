@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo Menu</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="menu_3">Menu 3</string>
+    <string name="lauout_menu_1">Layout Menu 1</string>
+    <string name="layout_menu_2">Layout Menu 2</string>
+    <string name="layout_menu_3">Layout Menu 3</string>
+</resources>

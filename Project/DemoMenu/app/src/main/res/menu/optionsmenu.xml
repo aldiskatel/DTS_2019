@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_1"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/menu1"/>
+    <item android:title="@string/menu_2"
+        android:id="@+id/menu2"/>
+    <item android:title="@string/menu_3"
+        android:id="@+id/menu3"/>
+</menu>

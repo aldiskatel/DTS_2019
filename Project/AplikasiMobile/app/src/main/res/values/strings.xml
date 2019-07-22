@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplikasi Mobile</string>
+    <string name="name">Masukkan Nama Anda</string>
+    <string name="nama">Nama</string>
+    <string name="tampilkan">Tampilkan</string>
+    <string name="tampil_label">Tampil Label</string>
+    <string name="nim">NIM</string>
+    <string name="alamat">Alamat</string>
+    <string name="telephone">Telephone</string>
+    <string name="clear">Clear</string>
+    <string name="show">Show</string>
+</resources>

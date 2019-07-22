@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Proyek 1</string>
+    <string name="logo_kominfo">logo kominfo</string>
+    <string name="add">Add</string>
+    <string name="nama_file">Nama File:</string>
+    <string name="catatan">Catatan :</string>
+    <string name="simpan">Simpan</string>
+</resources>

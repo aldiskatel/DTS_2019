@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Country ListView</string>
+    <!--<string-array name="country">-->
+        <!--<item>Indonesia</item>-->
+        <!--<item>Malaysia</item>-->
+        <!--<item>Singapore</item>-->
+        <!--<item>Italia</item>-->
+        <!--<item>Inggris</item>-->
+        <!--<item>Belanda</item>-->
+        <!--<item>Argentina</item>-->
+        <!--<item>Chile</item>-->
+        <!--<item>Mesir</item>-->
+    <!--</string-array>-->
+    <!--<string name="indonesia">Indonesia</string>-->
+    <!--<string name="malaysia">Malaysia</string>-->
+    <!--<string name="singapore">Singapore</string>-->
+    <!--<string name="italia">Italia</string>-->
+    <!--<string name="inggris">Inggis</string>-->
+    <!--<string name="belanda">Belanda</string>-->
+    <!--<string name="argentina">Argentina</string>-->
+    <!--<string name="chile">Chile</string>-->
+    <!--<string name="mesir">Mesir</string>-->
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DB Kominfo</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="data_pegawai">Aplikasi Data Pegawai</string>
+    <string name="add">Add</string>
+    <string name="logo_kominfo">logo kominfo</string>
+    <string name="mode_server">Pilihan Server</string>
+    <string name="local">LOCAL</string>
+    <string name="online">ONLINE</string>
+    <string name="ex_192_168_12_1">ex: 192.168.12.1</string>
+</resources>

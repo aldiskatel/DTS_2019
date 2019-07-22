@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExternalStorageActivity">
+
+    <Button
+        android:id="@+id/btnBuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:layout_marginTop="@dimen/horizontal"
+        android:text="@string/create"/>
+    <Button
+        android:id="@+id/btnUbah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:text="@string/Edit"/>
+    <Button
+        android:id="@+id/btnBaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:text="@string/read_file"/>
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:text="@string/delete"/>
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="@dimen/horizontal"
+        android:layout_marginEnd="@dimen/horizontal"
+        android:hint="@string/hasil_baca_file"/>
+
+</LinearLayout>

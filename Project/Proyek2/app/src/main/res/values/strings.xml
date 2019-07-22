@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyek 2</string>
+    <string name="logokominfo">Logo Kominfo</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">View and ViewGroup</string>
+    <string name="sistem_informasi_keuangan">Sistem Informasi Keuangan</string>
+    <string name="username">Username</string>
+    <string name="test1">Test1</string>
+    <string name="test2">test2</string>
+    <string name="button">Button</string>
+    <string name="_0">0</string>
+    <string name="reminder_name">Reminder Name</string>
+    <string name="reminder">Reminder Name</string>
+    <string name="baris_kedua">Save</string>
+    <string name="baris_kedua_sub">CTRL + S</string>
+    <string name="baris_ketiga">Save As</string>
+    <string name="baris_ketiga_sub">CTRL + SHIFT + S</string>
+    <string name="open">Open</string>
+    <string name="ctrl_o">CTRL + O</string>
+    <string name="importt">Import</string>
+    <string name="import_sub">CTRL + I</string>
+    <string name="export">Export</string>
+    <string name="export_sub">CTRL + E</string>
+    <string name="quit">Quit</string>
+    <string name="quit_sub">CTRL + Q</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_1">Button 1</string>
+    <string name="reminder_note">Reminder Note</string>
+</resources>

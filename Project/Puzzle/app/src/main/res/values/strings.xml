@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bermain Puzzle Angka</string>
+    <string name="keluar">Keluar</string>
+    <string name="ulangi">Ulangi</string>
+    <string name="mainTitle">Puzzle Angka</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="i">I</string>
+    <string name="e">E</string>
+    <string name="g">G</string>
+    <string name="f">F</string>
+    <string name="h">H</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="k">K</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="j">J</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+</resources>
