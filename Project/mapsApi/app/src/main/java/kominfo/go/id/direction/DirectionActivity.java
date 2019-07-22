@@ -15,7 +15,6 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.maps.android.PolyUtil;
-import com.khilman.www.learngoogleapi.R;
 
 import java.util.List;
 
@@ -32,10 +31,10 @@ import retrofit2.Response;
 public class DirectionActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
 
-    private String API_KEY = "AIzaSyAuPImlMIQGCE2tOMmwNQNwB_cLaAl95yM";
+    private String API_KEY = "AIzaSyBe9P-itehQgH5BG7ox5vizpv5E1iGLMhg";
 
-    private LatLng pickUpLatLng = new LatLng(-3.2956939,114.5797416);
-    private LatLng locationLatLng = new LatLng(-3.4375018,114.8542852);
+    private LatLng pickUpLatLng = new LatLng(-3.2956939, 114.5797416);
+    private LatLng locationLatLng = new LatLng(-3.4375018, 114.8542852);
 
     private TextView tvStartAddress, tvEndAddress, tvDuration, tvDistance;
 

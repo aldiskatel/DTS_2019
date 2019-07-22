@@ -14,7 +14,6 @@ import com.google.android.gms.location.places.AutocompleteFilter;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceAutocomplete;
 import com.google.android.gms.maps.model.LatLng;
-import com.khilman.www.learngoogleapi.R;
 
 public class PlaceAutoCompleteActivity extends AppCompatActivity {
 
