@@ -29,14 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setAction() {
-        listView.getOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String s="Kamu menekan:"+ listView.;
-
-                Toast.makeText(MainActivity.this, s, Toast.LENGTH_SHORT).show();
-            }
-        })
+        //:TODO Tambahkan Action on Click disini
     }
     private void setAdapter() {
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,
