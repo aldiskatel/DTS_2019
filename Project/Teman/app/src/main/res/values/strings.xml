@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Teman</string>
+    <string name="splash_title">Politeknik Negri Banjarmasin\n2019</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="kominfo_logo">Logo</string>
+    <string name="clear">Clear</string>
+</resources>
