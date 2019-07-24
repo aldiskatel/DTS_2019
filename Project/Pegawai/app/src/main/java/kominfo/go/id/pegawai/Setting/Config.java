@@ -2,8 +2,8 @@ package kominfo.go.id.pegawai.Setting;
 
 public class Config {
 
-    public static final String BASE_URL = "https://officialdevbjb.com/digitalent/";    //Online URL
-    public static final String ACTIVE_URL = BASE_URL;//"http://192.168.12.1/digitalent/";    //Offline URL
+    public static final String ACTIVE_URL = "https://officialdevbjb.com/digitalent/";    //Online URL
+//    public static final String ACTIVE_URL = "http://192.168.12.1/digitalent/";    //Offline URL
 
     public static final String URL_ADD = ACTIVE_URL + "tambahpgw";
     public static final String URL_GET_ALL = ACTIVE_URL + "tampilsemua";

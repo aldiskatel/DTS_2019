@@ -1,5 +1,7 @@
 package kominfo.go.id.pegawai.Controller;
 
+import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -71,6 +73,7 @@ public class RequestHandler {
                 sb.append(s + "\n");
             }
         } catch (Exception e) {
+            e.printStackTrace();
         }
         return sb.toString();
     }
@@ -87,6 +90,7 @@ public class RequestHandler {
                 sb.append(s + "\n");
             }
         } catch (Exception e) {
+            e.printStackTrace();
         }
         return sb.toString();
     }
