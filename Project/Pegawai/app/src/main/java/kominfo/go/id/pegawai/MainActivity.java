@@ -10,7 +10,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -24,7 +23,6 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Random;
 
 import kominfo.go.id.pegawai.Controller.RequestHandler;
 import kominfo.go.id.pegawai.Setting.Config;
@@ -36,10 +34,10 @@ import static kominfo.go.id.pegawai.View.LoginActivity.FILENAME;
 
 public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
-    private ListView listView;
-    private final String URUT="HEHE";
-    private String JSON_STRING;
     public static ArrayList<HashMap<String, String>> list;
+    private final String URUT = "HEHE";
+    private ListView listView;
+    private String JSON_STRING;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
                 HashMap<String, String> employees = new HashMap<>();
                 employees.put(Config.TAG_ID, id);
-                employees.put(URUT, String.valueOf(i+1));
+                employees.put(URUT, String.valueOf(i + 1));
                 employees.put(Config.TAG_NAMA, name);
                 employees.put(Config.TAG_POSISI, position);
                 list.add(employees);
@@ -78,8 +76,8 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
         ListAdapter adapter = new SimpleAdapter(
                 MainActivity.this, list, R.layout.list_item,
-                new String[]{Config.TAG_NAMA, Config.TAG_POSISI,URUT},
-                new int[]{R.id.id, R.id.name,R.id.number});
+                new String[]{Config.TAG_NAMA, Config.TAG_POSISI, URUT},
+                new int[]{R.id.id, R.id.name, R.id.number});
 
         listView.setAdapter(adapter);
     }
@@ -164,6 +162,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
                 })
                 .setNegativeButton(android.R.string.no, null).show();
     }
+
     private void hapusFile() {
         File file = new File(getFilesDir(), FILENAME);
         if (file.exists()) {
