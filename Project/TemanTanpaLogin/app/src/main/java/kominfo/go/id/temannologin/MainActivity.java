@@ -1,4 +1,4 @@
-package kominfo.go.id.teman;
+package kominfo.go.id.temannologin;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,18 +14,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import kominfo.go.id.teman.adapter.Adapter;
-import kominfo.go.id.teman.helper.Helper;
-import kominfo.go.id.teman.model.Data;
-import kominfo.go.id.teman.view.InputActivity;
-import kominfo.go.id.teman.view.LoginActivity;
-
-import static kominfo.go.id.teman.view.LoginActivity.FILENAME;
+import kominfo.go.id.temannologin.adapter.Adapter;
+import kominfo.go.id.temannologin.helper.Helper;
+import kominfo.go.id.temannologin.model.Data;
+import kominfo.go.id.temannologin.view.InputActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -152,25 +148,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void logout() {
         new AlertDialog.Builder(this)
-                .setTitle("Logout")
-                .setMessage("Apakah Anda yakin ingin Logout?")
+                .setTitle("Keluar")
+                .setMessage("Apakah Anda yakin ingin keluar?")
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                     public void onClick(DialogInterface dialog, int whichButton) {
-                        hapusFile();
-                        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                        startActivity(intent);
-                        finish();
+                        System.exit(0);
                     }
                 })
                 .setNegativeButton(android.R.string.no, null).show();
-    }
-
-    private void hapusFile() {
-        File file = new File(getFilesDir(), FILENAME);
-        if (file.exists()) {
-            file.delete();
-        }
     }
 }

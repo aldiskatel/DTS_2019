@@ -1,4 +1,4 @@
-package kominfo.go.id.teman;
+package kominfo.go.id.teman.view;
 
 
 import android.os.Bundle;
@@ -11,13 +11,15 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import kominfo.go.id.teman.helper.DbHelper;
+import kominfo.go.id.teman.MainActivity;
+import kominfo.go.id.teman.R;
+import kominfo.go.id.teman.helper.Helper;
 
-public class AddEdit extends AppCompatActivity {
+public class InputActivity extends AppCompatActivity {
 
     EditText txt_id, txt_name, txt_address;
     Button btn_submit, btn_cancel;
-    DbHelper SQLite = new DbHelper(this);
+    Helper SQLite = new Helper(this);
     String id, name, address;
 
     @Override
@@ -123,5 +125,4 @@ public class AddEdit extends AppCompatActivity {
             finish();
         }
     }
-
 }

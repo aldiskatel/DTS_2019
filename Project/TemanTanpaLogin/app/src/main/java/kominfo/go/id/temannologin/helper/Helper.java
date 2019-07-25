@@ -1,36 +1,35 @@
-package kominfo.go.id.teman.helper;
+package kominfo.go.id.temannologin.helper;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class DbHelper extends SQLiteOpenHelper {
+public class Helper extends SQLiteOpenHelper {
 
-    public static final String TABLE_FRIENDS = "friends";
-    public static final String COLUMN_ID = "id";
-    public static final String COLUMN_NAME = "nama";
-    public static final String COLUMN_ADDRESS = "alamat";
-    static final String DATABASE_NAME = "dts_poliban.db";
+    private static final String TABLE_FRIENDS = "friends";
+    private static final String COLUMN_ID = "id";
+    private static final String COLUMN_NAME = "nama";
+    private static final String COLUMN_ADDRESS = "alamat";
+    private static final String DATABASE_NAME = "dts_poliban.db";
     private static final int DATABASE_VERSION = 2;
 
-    public DbHelper(Context context) {
+    public Helper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        final String SQL_CREATE_MOVIE_TABLE = "CREATE TABLE " + TABLE_FRIENDS + " (" +
-                COLUMN_ID + " INTEGER PRIMARY KEY autoincrement, " +
-                COLUMN_NAME + " TEXT, " +
-                COLUMN_ADDRESS + " TEXT " +
-                " )";
+        final String query = "CREATE TABLE " + TABLE_FRIENDS + " ("
+                + COLUMN_ID + " INTEGER NOT NULL PRIMARY KEY autoincrement, "
+                + COLUMN_NAME + " TEXT, "
+                + COLUMN_ADDRESS + " TEXT "
+                + " )";
 
-        db.execSQL(SQL_CREATE_MOVIE_TABLE);
+        db.execSQL(query);
     }
 
     @Override
@@ -55,18 +54,17 @@ public class DbHelper extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
         }
 
-        Log.e("select sqlite ", "" + wordList);
-
         database.close();
         return wordList;
     }
 
     public void insert(String name, String address) {
         SQLiteDatabase database = this.getWritableDatabase();
-        String queryValues = "INSERT INTO " + TABLE_FRIENDS + " (nama, alamat) " +
-                "VALUES ('" + name + "', '" + address + "')";
+        String queryValues = "INSERT INTO "
+                + TABLE_FRIENDS
+                + " (nama, alamat) "
+                + "VALUES ('" + name + "', '" + address + "')";
 
-        Log.e("insert sqlite ", "" + queryValues);
         database.execSQL(queryValues);
         database.close();
     }
@@ -78,7 +76,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 + COLUMN_NAME + "='" + name + "', "
                 + COLUMN_ADDRESS + "='" + address + "'"
                 + " WHERE " + COLUMN_ID + "=" + "'" + id + "'";
-        Log.e("update sqlite ", updateQuery);
         database.execSQL(updateQuery);
         database.close();
     }
@@ -87,7 +84,6 @@ public class DbHelper extends SQLiteOpenHelper {
         SQLiteDatabase database = this.getWritableDatabase();
 
         String updateQuery = "DELETE FROM " + TABLE_FRIENDS + " WHERE " + COLUMN_ID + "=" + "'" + id + "'";
-        Log.e("update sqlite ", updateQuery);
         database.execSQL(updateQuery);
         database.close();
     }
