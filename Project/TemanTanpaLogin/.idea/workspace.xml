@@ -12,11 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b5d6f3f1-d383-40ee-b8c8-f9ff44a4cfe3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Teman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/AddEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/view/InputActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/helper/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/helper/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/res/layout/activity_add_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/res/layout/activity_add_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/java/kominfo/go/id/teman/helper/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Teman/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Teman/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,17 +42,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+            <state relative-caret-position="146">
+              <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
               <folding>
                 <element signature="method#inisiasi#0;class#MainActivity#0" />
-                <element signature="method#getAllData#0;class#MainActivity#0" />
+                <element signature="e#3843#4181#1" />
                 <element signature="method#onResume#0;class#MainActivity#0" />
                 <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
                 <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
-                <element signature="e#5111#5484#0" expanded="true" />
-                <element signature="e#5483#5484#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -71,25 +78,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding>
-                <element signature="e#574#842#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
-                <element signature="e#261#279#0" expanded="true" />
+                <element signature="e#550#568#0" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
     </leaf>
@@ -99,6 +102,7 @@
       <find>getAllData</find>
       <find>SQL_CREATE_MOVIE_TABLE</find>
       <find>Login</find>
+      <find>poster</find>
     </findStrings>
     <replaceStrings>
       <replace>dataTeman</replace>
@@ -122,7 +126,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/friendsker/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menus.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/view/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/view/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
@@ -138,8 +141,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/helper/DbHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/SplashScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -172,13 +176,13 @@
             <path>
               <item name="TemanTanpaLogin" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="TemanTanpaLogin" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="temannologin" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="TemanTanpaLogin" type="1abcf292:AndroidViewProjectNode" />
@@ -188,8 +192,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,11 +314,11 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.4994664" weight="0.22607261" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.4994664" visible="true" weight="0.22607261" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.7848933" />
       <window_info anchor="bottom" id="Logcat" order="2" weight="0.41215107" />
       <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" />
@@ -385,41 +389,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/view/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-          <folding>
-            <element signature="method#inisiasi#0;class#RegisterActivity#0" />
-            <element signature="method#gasKeun#0;class#RegisterActivity#0" />
-            <element signature="method#isValidation#0;class#RegisterActivity#0" />
-            <element signature="method#simpanFileData#0;class#RegisterActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/view/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-          <folding>
-            <element signature="method#inisiasi#0;class#LoginActivity#0" />
-            <element signature="method#gaskeun#0;class#LoginActivity#0" />
-            <element signature="e#1672#1813#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="method#simpanFileLogin#0;class#LoginActivity#0" />
-            <element signature="method#login#0;class#LoginActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/view/RegisterActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/teman/view/LoginActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -533,6 +504,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/SplashScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -544,39 +522,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#550#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/kominfo/go/id/temannologin/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        <state relative-caret-position="146">
+          <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
           <folding>
             <element signature="method#inisiasi#0;class#MainActivity#0" />
-            <element signature="method#getAllData#0;class#MainActivity#0" />
+            <element signature="e#3843#4181#1" />
             <element signature="method#onResume#0;class#MainActivity#0" />
             <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
             <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
-            <element signature="e#5111#5484#0" expanded="true" />
-            <element signature="e#5483#5484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="e#261#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
   </component>
 </project>

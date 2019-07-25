@@ -105,14 +105,14 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < row.size(); i++) {
             String id = row.get(i).get(TAG_ID);
-            String poster = row.get(i).get(TAG_NAME);
-            String title = row.get(i).get(TAG_ADDRESS);
+            String nama = row.get(i).get(TAG_NAME);
+            String alamat = row.get(i).get(TAG_ADDRESS);
 
             Data data = new Data();
 
             data.setId(id);
-            data.setName(poster);
-            data.setAddress(title);
+            data.setName(nama);
+            data.setAddress(alamat);
 
             itemList.add(data);
         }

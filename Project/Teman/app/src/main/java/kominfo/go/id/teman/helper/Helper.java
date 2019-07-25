@@ -86,6 +86,7 @@ public class Helper extends SQLiteOpenHelper {
         String updateQuery = "DELETE FROM " + TABLE_FRIENDS + " WHERE " + COLUMN_ID + "=" + "'" + id + "'";
         database.execSQL(updateQuery);
         database.close();
+//        https://github.com/aldiskatel
     }
 
 }
